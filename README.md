@@ -180,6 +180,10 @@ The file containing your project's version number. Must be a JSON file with a to
 
 *Default:* `package.json`
 
+#### shaLength
+
+Allows to specify the length of the sha part when using versionFile. Default = 8
+
 ## SCM Data Generators
 
 SCM Data generators are the strategies used to collect extra information about the revision being deployed. An scm data generator must return an object which contains properties that it deems relevant to the revision being deployed .
